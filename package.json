@@ -1,0 +1,47 @@
+{
+  "name": "opnr",
+  "version": "1.0.0",
+  "description": "launches the browser when ndjson criteria is met",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "opn": "^1.0.1",
+    "through2": "^0.6.5",
+    "url-parse-as-address": "^1.0.0",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "getport": "^0.1.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "budo",
+    "launch",
+    "open",
+    "opn",
+    "opener",
+    "browser",
+    "launcher",
+    "run",
+    "command",
+    "ndjson",
+    "pipe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/opnr.git"
+  },
+  "homepage": "https://github.com/mattdesl/opnr",
+  "bugs": {
+    "url": "https://github.com/mattdesl/opnr/issues"
+  }
+}
