@@ -9,6 +9,9 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
+  "bin": {
+    "opnr": "./index.js"
+  },
   "dependencies": {
     "minimist": "^1.1.1",
     "opn": "^1.0.1",
