@@ -12,7 +12,7 @@ It looks for JSON objects with the following format:
 
 URLs are parsed as addresses, so the above opens the default browser to `http://some-page.com/`. You can configure the action to listen for with the `--type` field.
 
-This can be used by CLI tools that emit ndjson, like a hypothetical version of [budo](https://github.com/mattdesl/budo) or [wzrd](https://www.npmjs.com/package/wzrd):
+This can be used by CLI tools that emit ndjson, like a **hypothetical** version of [budo](https://github.com/mattdesl/budo) or [wzrd](https://www.npmjs.com/package/wzrd):
 
 ```sh
 # launch the browser once the port is found
