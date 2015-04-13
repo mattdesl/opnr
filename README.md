@@ -4,13 +4,6 @@
 
 Sniffs `process.stdin` for [ndjson](https://github.com/maxogden/ndjson) and launches the browser when a message with `url` and `type: 'connect'` is consumed.
 
-This can be used by CLI tools that emit ndjson, like [budo](https://github.com/mattdesl/budo). A typical example:
-
-```sh
-# launch the browser when we find a free port
-budo index.js | opnr | garnish
-```
-
 It looks for JSON objects with the following format:
 
 ```js
@@ -18,6 +11,13 @@ It looks for JSON objects with the following format:
 ```
 
 URLs are parsed as addresses, so the above opens the default browser to `http://some-page.com/`. You can configure the action to listen for with the `--type` field.
+
+This can be used by CLI tools that emit ndjson, like a hypothetical version of [budo](https://github.com/mattdesl/budo) or [wzrd](https://www.npmjs.com/package/wzrd):
+
+```sh
+# launch the browser once the port is found
+wzrd index.js | opnr | garnish
+```
 
 ## Usage
 
