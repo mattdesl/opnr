@@ -14,6 +14,8 @@ URLs are parsed as addresses, so the above opens the default browser to `http://
 
 This can be used by CLI tools that emit ndjson, like a **hypothetical** version of [budo](https://github.com/mattdesl/budo) or [wzrd](https://www.npmjs.com/package/wzrd):
 
+(Note: this doesn't actually work yet, but it *could* if these tools slightly changed their output signature.)
+
 ```sh
 # launch the browser once the port is found
 wzrd index.js | opnr | garnish
