@@ -1,6 +1,6 @@
 {
   "name": "opnr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "launches the browser when ndjson criteria is met",
   "main": "index.js",
   "license": "MIT",
